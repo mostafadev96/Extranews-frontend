@@ -1,0 +1,34 @@
+<div class="mycontainer d-none d-md-block">
+  <hr>
+</div>
+<section class="news">
+  <div class="slideContainer">
+    <div class="swiper-container swiper-slider-2 differentArrows" [swiper]="config">
+      <ul class="swiper-pagination tabs d-flex justify-content-between">
+      </ul>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let slide of swiperPosts">
+          <div class="singleNews position-relative clearfix">
+            <div class="singleCol text-center colImg">
+              <img [src]="slide.photo" alt="" class="centerImg">
+            </div>
+            <div class="singleCol newsContent float-right">
+              <p class="bold f-25 mrg-btm-30">{{slide.title}}</p>
+              <p class="medium description">{{slide.description}}</p>
+              <div class="newsFooter">
+                <a [href]="slide.link" class="bold black">READ MORE</a>
+                <div class="socialIcons d-inline-block float-right">
+                  <a href="#" class="black"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="black"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="black"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>

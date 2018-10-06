@@ -1,0 +1,26 @@
+<div class="mycontainer">
+  <p class="sectionTitle">GALLERY</p>
+  <hr class="belowSectionTitle">
+  <div class="swiper-container swiper-slider-3 differentArrows" [swiper]="config" (indexChange)="changeSlide($event)" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" *ngFor="let slide of recentAlbum.slides">
+        <div class="fullWidth text-center position-relative">
+          <img [src]="slide" alt="" class="centerImg">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="whiteBg position-absolute">
+      <p class="f-25 text-left latoBlack">
+        <a [href]="recentAlbum.link" class="black">{{recentAlbum.title}}</a>
+      </p>
+      <span class="pagination">
+        <span>{{num}}</span>
+        <span> / </span>
+        <span> {{recentAlbum.slides.length}} </span>
+      </span>
+    </div>
+  </div>
+
+</div>

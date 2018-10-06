@@ -1,0 +1,43 @@
+.allAds {
+  margin-top: 50px;
+}
+
+.singleAdd {
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.singleAdd .adddImg {
+  height: 218px;
+  overflow: hidden;
+}
+
+.singleAdd .adddImg img {
+  min-height: 100%;
+}
+
+.singleAdd .adddContent {
+  padding: 10px 15px 35px;
+}
+
+.singleAdd .adddFooter {
+  font-size: 10px;
+  padding: 10px 0;
+}
+@media screen and (min-width: 769px) {
+  .singleAdd {
+    width: 33.3% !important;
+    padding: 0 33px;
+  }
+
+  .singleAdd:first-child {
+    padding: 0 66px;
+    padding-left: 0 !important;
+  }
+
+  .singleAdd:last-child {
+    padding: 0 66px;
+    padding-right: 0 !important;
+  }
+}

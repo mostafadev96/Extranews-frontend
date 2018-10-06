@@ -1,0 +1,12 @@
+<div class="mycontainer">
+  <p class="sectionTitle">AD CONTENT</p>
+  <hr class="belowSectionTitle">
+  <div class="internalAds clearfix">
+    <div class="internalSingleAd position-relative" *ngFor="let adPost of adds ">
+      <div class="internalAdImg text-center">
+        <img [src]="adPost.photo" alt="" class="centerImg">
+      </div>
+      <p class="semiBold position-absolute aboveAd white">{{adPost.title}}</p>
+    </div>
+  </div>
+</div>

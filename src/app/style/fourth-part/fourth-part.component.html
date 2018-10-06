@@ -1,0 +1,17 @@
+<div class="mycontainer">
+  <p class="sectionTitle">
+    PHOTOS
+  </p>
+  <hr class="belowSectionTitle">
+  <div class="swiper-container events-slider differentArrows">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" *ngFor="let slide of slides">
+        <div class="myphoto text-center">
+          <img [src]="slide" alt="" class="centerImg">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>

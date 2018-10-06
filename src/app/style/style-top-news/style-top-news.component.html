@@ -1,0 +1,12 @@
+<div class="singleCol float-left">
+  <div class="subNews clearfix" *ngFor="let post of posts" (mouseover)="myFunc(post.id)" (click)="myFunc(post.id)" >
+    <div class="img float-left text-center">
+      <img [src]="post.photo" alt="" class="centerImg">
+    </div>
+    <div class="d-flex align-items-center subNewsContent">
+      <p class="semiBold f-md">
+        <a [href]="post.link">{{post.title}}</a>
+      </p>
+    </div>
+  </div>
+</div>

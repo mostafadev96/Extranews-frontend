@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="313c56fd-a2a2-4b3c-8f9d-dd5f6acb48ae" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/.idea/newsExtra.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/500.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/article.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/fontawesome-all.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/main.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/css/swiper.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/Cheque-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/Cheque-Black.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/Cheque-Black.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/Cheque-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/Cheque-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Cheque-Black/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/Lato-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/Lato-Black.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/Lato-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/Lato-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Black/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Heavy/Lato-Heavy.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Heavy/Lato-Heavy.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Heavy/Lato-Heavy.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Heavy/Lato-Heavy.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Light/Lato-Light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Light/Lato-Light.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Light/Lato-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Light/Lato-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/Lato-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/Lato-Medium.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/Lato-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/Lato-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Medium/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/Lato-Regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/Lato-Regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/Lato-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/Lato-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Regular/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/Lato-SemiBold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/Lato-SemiBold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/Lato-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/Lato-SemiBold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-SemiBold/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/Lato-Thin.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/Lato-Thin.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/Lato-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/Lato-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/fonts/Lato-Thin/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/404.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/500.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/ArticleBottom.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/articleHome.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/belowMo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/home.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/interna2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/interna3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/interna4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/internal1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/internalad.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/moo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/news.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/profile.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/result.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/serverErr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/sisi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/subscribe.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/topNews.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/images/video.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/internal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/js/jquery-3.3.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/js/swiper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/searchResult.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/serverErr.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-brands-400.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-brands-400.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-brands-400.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-brands-400.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-brands-400.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-regular-400.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-regular-400.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-regular-400.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-regular-400.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-regular-400.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-solid-900.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-solid-900.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-solid-900.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-solid-900.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newsExtraDesign/webfonts/fa-solid-900.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/Cheque-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/Cheque-Black.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/Cheque-Black.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/Cheque-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/Cheque-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Cheque-Black/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/Lato-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/Lato-Black.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/Lato-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/Lato-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Black/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Heavy/Lato-Heavy.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Heavy/Lato-Heavy.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Heavy/Lato-Heavy.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Heavy/Lato-Heavy.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Light/Lato-Light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Light/Lato-Light.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Light/Lato-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Light/Lato-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/Lato-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/Lato-Medium.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/Lato-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/Lato-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Medium/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/Lato-Regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/Lato-Regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/Lato-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/Lato-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Regular/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/Lato-SemiBold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/Lato-SemiBold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/Lato-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/Lato-SemiBold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-SemiBold/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/Lato-Thin.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/Lato-Thin.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/Lato-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/Lato-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/Lato-Thin/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/404.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/500.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/ArticleBottom.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/articleHome.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/belowMo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/home.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/interna2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/interna3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/interna4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/internal1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/internalad.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/moo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/news.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/profile.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/result.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/serverErr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/sisi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/subscribe.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/topNews.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/video.jpg" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="$PROJECT_DIR$/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" afterPath="$PROJECT_DIR$/src/styles.css" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="culture-top-news.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/culture/culture-top-news/culture-top-news.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/style/style.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sixth-part.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/style/sixth-part/sixth-part.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="internal-post.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/internal-post/internal-post.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="art-home-layout.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/art-home-layout/art-home-layout.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding>
+                <element signature="n#footer#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="internal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/newsExtraDesign/internal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="211" column="41" lean-forward="false" selection-start-line="211" selection-start-column="41" selection-end-line="211" selection-end-column="54" />
+              <folding>
+                <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>images</find>
+      <find>class=&quot;btn btn-primary active&quot;</find>
+      <find>header</find>
+      <find>swiper-slider-3</find>
+      <find>bodt</find>
+      <find>hover</find>
+      <find>images/video.jpg</find>
+      <find>allAd</find>
+      <find>adImg</find>
+      <find>singleAdd</find>
+      <find>allAds</find>
+      <find>img</find>
+      <find>ad</find>
+      <find>.addds</find>
+      <find>singleAd</find>
+      <find>.swiper-button-next</find>
+      <find>header .searchForm</find>
+      <find>routerLinkActive=&quot;active&quot;</find>
+      <find>some value</find>
+      <find>video</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>assets/images</replace>
+      <replace>assets/images/video.jpg</replace>
+      <replace>addd</replace>
+      <replace>singleAdd</replace>
+      <replace>style</replace>
+      <replace>internal1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/Home/home-videos/home-videos.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/top-news/top-news.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/firstpart/firstpart.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/different-news-part4/different-news-part4.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/different-news-part4/different-news-part4.component.css" />
+        <option value="$PROJECT_DIR$/src/app/Home/different-news-part4/different-news-part4.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/live/live.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/live/live.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/subscribe/subscribe.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/gallery/gallery.component.ts" />
+        <option value="$USER_HOME$/Downloads/newsExtra/index.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/ads/ads.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/ads/ads.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/addds/addds.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/addds/addds.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Home/addds/addds.component.css" />
+        <option value="$PROJECT_DIR$/src/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/app/notfound/notfound.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Header/first-header/first-header.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/art-home-layout/art-home-layout.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Header/first-header/first-header.component.html" />
+        <option value="$PROJECT_DIR$/src/app/errorrs/errorrs.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/errorrs/errorrs.component.html" />
+        <option value="$PROJECT_DIR$/src/app/serve-error/serve-error.component.html" />
+        <option value="$PROJECT_DIR$/src/app/internal-post/internal-post.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/internal-content/internal-content.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/internal-content/internal-content.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/home/home.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/first-part/first-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/first-part/first-part.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/top-news/top-news.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/style-top-news/style-top-news.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/style/second-part/second-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/style-top-news/style-top-news.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/second-part/second-part.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/style/third-part/third-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/fourth-part/fourth-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/fourth-part/fourth-part.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Home/gallery/gallery.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/fifth-part/fifth-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/fifth-part/fifth-part.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/style/seventh-part/seventh-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/style.component.html" />
+        <option value="$PROJECT_DIR$/src/app/style/sixth-part/sixth-part.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/style/sixth-part/sixth-part.component.html" />
+        <option value="$PROJECT_DIR$/src/app/art-home-layout/art-home-layout.component.html" />
+        <option value="$PROJECT_DIR$/src/app/internal-post/internal-post.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-150" />
+    <option name="y" value="5" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="art-home-layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsExtra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsExtra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="E:\AngularLearning\NewsExtra\node_modules\tslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AngularLearning\NewsExtra" />
+      <recent name="E:\AngularLearning\NewsExtra\src\assets\css" />
+      <recent name="E:\AngularLearning\NewsExtra\src\assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="313c56fd-a2a2-4b3c-8f9d-dd5f6acb48ae" name="Default" comment="" />
+      <created>1538408940382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538408940382</updated>
+      <workItem from="1538408942173" duration="6148000" />
+      <workItem from="1538447180002" duration="5321000" />
+      <workItem from="1538522988682" duration="14813000" />
+      <workItem from="1538541422766" duration="599000" />
+      <workItem from="1538608123975" duration="598000" />
+      <workItem from="1538615087022" duration="14647000" />
+      <workItem from="1538631007500" duration="847000" />
+      <workItem from="1538632369213" duration="2882000" />
+      <workItem from="1538680752645" duration="13067000" />
+      <workItem from="1538795582337" duration="19221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78143000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25297618" sideWeight="0.5191257" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38279933" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25297618" sideWeight="0.48087433" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/Header/first-header/first-header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Header/first-header/first-header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/notfound/notfound.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/errorrs/errorrs.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/errorrs/errorrs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/newsExtraDesign/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/serve-error/serve-error.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/serve-error/serve-error.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/art-home-layout/art-home-layout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/internal-content/internal-content.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/internal-content/internal-content.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/style.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/firstpart/firstpart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="e#503#1907#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/firstpart/firstpart.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsExtraDesign/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="629" column="1" lean-forward="false" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/first-part/first-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/first-part/first-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/top-news/posts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/top-news/posts.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/style-top-news/style-top-news.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/second-part/second-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/top-news/top-news.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/second-part/second-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/top-news/top-news.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#242#715#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/third-part/third-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/third-part/third-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/style-top-news/style-top-news.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/newsExtraDesign/internal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="211" column="41" lean-forward="false" selection-start-line="211" selection-start-column="41" selection-end-line="211" selection-end-column="54" />
+          <folding>
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/fourth-part/fourth-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/subscribe/subscribe.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/gallery/gallery.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/gallery/gallery.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#514#1082#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/addds/addds.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#229#831#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/fifth-part/fifth-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="e#259#883#0" expanded="false" />
+            <element signature="e#889#1513#0" expanded="false" />
+            <element signature="e#1519#2143#0" expanded="false" />
+            <element signature="e#2149#2773#0" expanded="false" />
+            <element signature="e#2859#3483#0" expanded="false" />
+            <element signature="e#3509#4133#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/fifth-part/fifth-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/fourth-part/fourth-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Home/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/seventh-part/seventh-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/seventh-part/seventh-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/style.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="5" column="122139" lean-forward="false" selection-start-line="5" selection-start-column="122139" selection-end-line="5" selection-end-column="122139" />
+          <folding>
+            <element signature="e#57526#57726#2" expanded="false" />
+            <element signature="e#57934#58083#2" expanded="false" />
+            <element signature="e#58585#58731#2" expanded="false" />
+            <element signature="e#59032#59198#1" expanded="false" />
+            <element signature="e#70814#71057#2" expanded="false" />
+            <element signature="e#71924#72173#2" expanded="false" />
+            <element signature="e#99236#99426#2" expanded="false" />
+            <element signature="e#99472#99662#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsExtraDesign/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3774">
+          <caret line="1005" column="16" lean-forward="true" selection-start-line="1005" selection-start-column="16" selection-end-line="1005" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/art-home-layout/art-home-layout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="n#footer#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/sixth-part/sixth-part.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/internal-post/internal-post.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/sixth-part/sixth-part.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/internal-post/internal-post.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/culture/culture-top-news/culture-top-news.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
