@@ -18,8 +18,8 @@ export class SecondInternalPartComponent implements OnInit {
   ngOnInit() {
     this.iService.getTopInternalPosts(this.typeNumber).subscribe(data => {
       this.posts = data;
+      this.chosenPost = this.posts[0];
     });
-    this.chosenPost = this.posts[0];
   }
   displayMain(number) {
 

@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {Post} from '../../Model/Post';
+import {ActivatedRoute, Router} from '@angular/router';
+import {ArticleService} from '../../Services/article.service';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-art-grooming',
@@ -6,47 +10,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./art-grooming.component.css']
 })
 export class ArtGroomingComponent implements OnInit {
-  post = {
-    title : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    author : "AMRUISMAIIL",
-    author_photo : "assets/images/profile.jpg",
-    video : "#",
-    photo : "assets/images/profile.jpg",
-    since : "25MIN",
-    description : [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy " +
-      "text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not " +
-      "only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in " +
-      "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing" +
-      " software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and " +
-      "typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer" +
-      " took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also " +
-      "the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release " +
-      "of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus" +
-      " PageMaker including versions of Lorem Ipsum",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard " +
-      "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen " +
-      "book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially " +
-      "unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more " +
-      "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply " +
-      "dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since " +
-      "the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived " +
-      "not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was " +
-      "popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum" +
-      " passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-    ]
-  };
-  video = {
-    id: 0,
-    photo: 'assets/images/video.jpg',
-    title: "Egypt's Sisi: Defaming security forces is 'high treason'",
-    link: "#",
-    since : "25 min",
-    duration : "03:45"
-  };
-  constructor() { }
+  sub: Subscription;
+  post: Post;
+  constructor(private route: ActivatedRoute, private router: Router, private aService: ArticleService) {
+  }
 
   ngOnInit() {
+    this.sub = this.route.params.subscribe(params => {
+      const id = params['id'];
+      if (id) {
+        this.aService.findPost(id).subscribe(data => {
+          if (data.found) {
+            this.post = data.post;
+          } else {
+            this.router.navigate(['/notfound']);
+          }
+        });
+      }
+    });
   }
 
 }

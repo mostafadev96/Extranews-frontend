@@ -3,21 +3,19 @@
     <p class="bold head">{{post.title}} </p>
     <div class="aboutArticle clearfix mrg-btm-40">
       <div class="user float-left">
-        <img [src]="post.author_photo" alt="">
-        <span class="light f-16">{{post.author}}</span>
+        <img [src]="post.user.photo" alt="">
+        <span class="light f-16">{{post.user.name}}</span>
       </div>
       <div class="time float-left">
         <i class="far fa-clock clock"></i>
-        <span class="light f-16"> {{post.since}} AGO</span>
+        <span class="light f-16"> {{post.created_at}} AGO</span>
       </div>
     </div>
-
+    <app-video-post [post]='post.video' [trending]="false"></app-video-post>
     <hr>
     <p class="articleData semiBold">
-      {{post.description[0]}}
+      {{post.description}}
     </p>
-    <app-video-post [post]='video' [trending]="false"></app-video-post>
-    <p class="articleData semiBold">{{post.description.slice(1,post.description.length)}}</p>
     <div class="belowSocial">
       <div class="belowNews d-inline-block">
         <ul>
