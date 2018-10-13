@@ -6,13 +6,13 @@
   <div class="singleCol float-left">
     <div class="mainNews">
       <div class="img text-center">
-        <img [src]="chosenPost.photo" alt="" class="centerImg">
+        <img [src]="chosenPost.album.photos[0].photo" alt="" class="centerImg">
       </div>
       <div class="content ">
         <p class="semiBold mrg-top-20 f-lg position-relative">
-          <a [href]="chosenPost.link" class="black">{{chosenPost.title}}</a></p>
+          <a [href]="API+chosenPost.id" class="black">{{chosenPost.title}}</a></p>
         <div class="clearfix">
-          <a [href]="chosenPost.link" class="readMore mrg-top-20 light">Read more</a>
+          <a [href]="API+chosenPost.id" class="readMore mrg-top-20 light">Read more</a>
         </div>
       </div>
     </div>

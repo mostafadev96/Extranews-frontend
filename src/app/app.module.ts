@@ -23,41 +23,30 @@ import { AdddsComponent } from './Home/addds/addds.component';
 import { ErrorrsComponent } from './errorrs/errorrs.component';
 import { ArtHomeLayoutComponent } from './art-home-layout/art-home-layout.component';
 import { SearchResultComponent } from './search-result/search-result.component';
-import { InternalPostComponent } from './internal-post/internal-post.component';
+import { InternalPostComponent } from './Internal/internal-post/internal-post.component';
 import {routing} from './app.routing';
 import { ServeErrorComponent } from './serve-error/serve-error.component';
-import { FirstPartComponent } from './style/first-part/first-part.component';
-import { SecondPartComponent } from './style/second-part/second-part.component';
-import { ThirdPartComponent } from './style/third-part/third-part.component';
-import { FourthPartComponent } from './style/fourth-part/fourth-part.component';
-import { FifthPartComponent } from './style/fifth-part/fifth-part.component';
-import { SixthPartComponent } from './style/sixth-part/sixth-part.component';
-import { SeventhPartComponent } from './style/seventh-part/seventh-part.component';
-import { StyleTopNewsComponent } from './style/style-top-news/style-top-news.component';
-import { CultureTopNewsComponent } from './culture/culture-top-news/culture-top-news.component';
-import { CultureSeventhPartComponent } from './culture/culture-seventh-part/culture-seventh-part.component';
-import { CultureSixthPartComponent } from './culture/culture-sixth-part/culture-sixth-part.component';
-import { CulutreFifthPartComponent } from './culture/culutre-fifth-part/culutre-fifth-part.component';
-import { CultureFourthPartComponent } from './culture/culture-fourth-part/culture-fourth-part.component';
-import { CultureThirdPartComponent } from './culture/culture-third-part/culture-third-part.component';
-import { CultureSecondPartComponent } from './culture/culture-second-part/culture-second-part.component';
-import { CultureFirstPartComponent } from './culture/culture-first-part/culture-first-part.component';
-import { EntertainmentSeventhPartComponent } from './entertainment/entertainment-seventh-part/entertainment-seventh-part.component';
-import { EntertainmentSixthPartComponent } from './entertainment/entertainment-sixth-part/entertainment-sixth-part.component';
-import { EntertainmentFifthPartComponent } from './entertainment/entertainment-fifth-part/entertainment-fifth-part.component';
-import { EntertainmentFourthPartComponent } from './entertainment/entertainment-fourth-part/entertainment-fourth-part.component';
-import { EntertainmentThirdPartComponent } from './entertainment/entertainment-third-part/entertainment-third-part.component';
-import { EntertainmentSecondPartComponent } from './entertainment/entertainment-second-part/entertainment-second-part.component';
-import { EntertainmentFirstPartComponent } from './entertainment/entertainment-first-part/entertainment-first-part.component';
-import { EntertainmentTopNewsComponent } from './entertainment/entertainment-top-news/entertainment-top-news.component';
-import { GroomingTopNewsComponent } from './grooming/grooming-top-news/grooming-top-news.component';
-import { GroomingFirstPartComponent } from './grooming/grooming-first-part/grooming-first-part.component';
-import { GroomingSecondPartComponent } from './grooming/grooming-second-part/grooming-second-part.component';
-import { GroomingThirdPartComponent } from './grooming/grooming-third-part/grooming-third-part.component';
-import { GroomingFourthPartComponent } from './grooming/grooming-fourth-part/grooming-fourth-part.component';
-import { GroomingFifthPartComponent } from './grooming/grooming-fifth-part/grooming-fifth-part.component';
-import { GroomingSixthPartComponent } from './grooming/grooming-sixth-part/grooming-sixth-part.component';
-import { GroomingSeventhPartComponent } from './grooming/grooming-seventh-part/grooming-seventh-part.component';
+import { ArtStyleComponent } from './Article/art-style/art-style.component';
+import { ArtCultureComponent } from './Article/art-culture/art-culture.component';
+import { ArtGroomingComponent } from './Article/art-grooming/art-grooming.component';
+import { ArtEntertainmentComponent } from './Article/art-entertainment/art-entertainment.component';
+import { ArtWomenComponent } from './Article/art-women/art-women.component';
+import { ArtVideosComponent } from './Article/art-videos/art-videos.component';
+import { VideoPostComponent } from './video-post/video-post.component';
+import { SeventhInternalPartComponent } from './Internal/seventh-internal-part/seventh-internal-part.component';
+import { SixthInternalPartComponent } from './Internal/sixth-internal-part/sixth-internal-part.component';
+import { FifthInternalPartComponent } from './Internal/fifth-internal-part/fifth-internal-part.component';
+import { FourthInternalPartComponent } from './Internal/fourth-internal-part/fourth-internal-part.component';
+import { ThirdInternalPartComponent } from './Internal/third-internal-part/third-internal-part.component';
+import { SecondInternalPartComponent } from './Internal/second-internal-part/second-internal-part.component';
+import { FirstInternalPartComponent } from './Internal/first-internal-part/first-internal-part.component';
+import { TopNewsInternalPartComponent } from './Internal/top-news-internal-part/top-news-internal-part.component';
+import { UploadFileComponent } from './upload-file/upload-file.component';
+import {HttpClientModule} from '@angular/common/http';
+import {ArticleService} from './Services/article.service';
+import {HomeService} from './Services/home.service';
+import {InternalService} from './Services/internal.service';
+import { MinuteSecondsPipe } from './minute-seconds.pipe';
 
 
 @NgModule({
@@ -85,45 +74,31 @@ import { GroomingSeventhPartComponent } from './grooming/grooming-seventh-part/g
     SearchResultComponent,
     InternalPostComponent,
     ServeErrorComponent,
-    FirstPartComponent,
-    SecondPartComponent,
-    ThirdPartComponent,
-    FourthPartComponent,
-    FifthPartComponent,
-    SixthPartComponent,
-    SeventhPartComponent,
-    StyleTopNewsComponent,
-    CultureTopNewsComponent,
-    CultureSeventhPartComponent,
-    CultureSixthPartComponent,
-    CulutreFifthPartComponent,
-    CultureFourthPartComponent,
-    CultureThirdPartComponent,
-    CultureSecondPartComponent,
-    CultureFirstPartComponent,
-    EntertainmentSeventhPartComponent,
-    EntertainmentSixthPartComponent,
-    EntertainmentFifthPartComponent,
-    EntertainmentFourthPartComponent,
-    EntertainmentThirdPartComponent,
-    EntertainmentSecondPartComponent,
-    EntertainmentFirstPartComponent,
-    EntertainmentTopNewsComponent,
-    GroomingTopNewsComponent,
-    GroomingFirstPartComponent,
-    GroomingSecondPartComponent,
-    GroomingThirdPartComponent,
-    GroomingFourthPartComponent,
-    GroomingFifthPartComponent,
-    GroomingSixthPartComponent,
-    GroomingSeventhPartComponent,
+    ArtStyleComponent,
+    ArtCultureComponent,
+    ArtGroomingComponent,
+    ArtEntertainmentComponent,
+    ArtWomenComponent,
+    ArtVideosComponent,
+    VideoPostComponent,
+    SeventhInternalPartComponent,
+    SixthInternalPartComponent,
+    FifthInternalPartComponent,
+    FourthInternalPartComponent,
+    ThirdInternalPartComponent,
+    SecondInternalPartComponent,
+    FirstInternalPartComponent,
+    TopNewsInternalPartComponent,
+    UploadFileComponent,
+    MinuteSecondsPipe,
   ],
   imports: [
     BrowserModule,
     SwiperModule,
+    HttpClientModule,
     routing
   ],
-  providers: [],
+  providers: [ArticleService, HomeService, InternalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,22 +1,6 @@
 <div class="mycontainer clearfix">
   <div class="mainVideo float-left text-center position-relative">
-    <a [href]="trendingVideo.link">
-      <img [src]="trendingVideo.photo" alt="" class="centerImg">
-      <div class="position-absolute aroundMain">
-        <div class="play">
-          <i class="fas fa-play white"></i>
-        </div>
-        <div class="mainOverlay whiteBg">
-          <p class="semiBold f-30 text-left">{{trendingVideo.title}}</p>
-          <div class="float-left passTime black">
-            <i class="far fa-clock clock"></i><span>{{trendingVideo.since | uppercase}}</span><span> AGO</span>
-          </div>
-        </div>
-      </div>
-      <div class="trend position-absolute light redBg">
-        TRENDING
-      </div>
-    </a>
+    <app-video-post [post]='trendingVideo' [trending]="true"></app-video-post>
   </div>
   <div class="colVideo float-left">
     <div class="subVideo text-center position-relative" *ngFor="let video of videos">
@@ -25,7 +9,7 @@
         <div class="subOverlay clearfix">
           <div class="play float-left position-absolute ">
             <i class="fas fa-play"></i>
-            <span>{{video.duration}}</span>
+            <span>{{video.duration | minuteSeconds}}</span>
           </div>
           <div class="videoContent position-absolute ">
             <p class="light white text-left">{{video.title}} </p>

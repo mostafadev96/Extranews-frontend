@@ -1,0 +1,22 @@
+<div class="mycontainer">
+  <div class="date">
+    <p class="day black">{{ today |  date: 'dd'}}</p>
+    <p class="month ">{{ today |  date: 'MM,yyyy' | uppercase}}</p>
+  </div>
+  <div class="slider">
+    <div class="sliderHeader mrg-btm-30">
+      <span>News</span><span class="bgColor">{{type}}</span>
+    </div>
+    <div class="swiper-container swiper-slider-1" [swiper]="config" >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let slide of todayPosts">
+          <div class="slideContent">
+            <p class="f-lg semiBold mrg-btm-20">{{slide.title}}</p>
+            <p class="thin">{{slide.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>

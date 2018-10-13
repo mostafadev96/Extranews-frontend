@@ -1,15 +1,15 @@
 <div class="mycontainer">
   <div class="date">
-    <p class="day latoBlack">{{todayPost.day}}</p>
-    <p class="month ">{{todayPost.month}}, {{todayPost.year}}</p>
+    <p class="day latoBlack">{{ today |  date: 'dd'}}</p>
+    <p class="month ">{{ today |  date: 'MM,yyyy' | uppercase}}</p>
   </div>
   <div class="slider">
-    <div class="sliderHeader mrg-btm-30">
-      <span>News</span><span class="bgColor">{{todayPost.type}}</span>
-    </div>
     <div  class="swiper-container" [swiper]="config" >
       <div class="swiper-wrapper">
-        <div class="swiper-slide" *ngFor="let slide of todayPost.slides">
+        <div class="swiper-slide" *ngFor="let slide of slides">
+          <div class="sliderHeader mrg-btm-30">
+            <span>News</span><span class="bgColor">{{slide.type}}</span>
+          </div>
           <div class="slideContent">
             <p class="f-lg semiBold mrg-btm-20">{{slide.title}}</p>
             <p class="thinItalic">{{slide.description}}</p>

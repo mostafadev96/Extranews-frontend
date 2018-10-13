@@ -1,0 +1,26 @@
+<div class="mycontainer clearfix">
+  <p class="sectionTitle">
+    Top News
+  </p>
+  <hr class="belowSectionTitle">
+  <div class="singleCol float-left">
+    <div class="mainNews">
+      <div class="img text-center">
+        <img [src]="chosenPost.album.photos[0].photo" alt="" class="centerImg">
+      </div>
+      <div class="content clearfix ">
+        <p class="semiBold mrg-top-20 f-lg position-relative">
+          <a [href]="API+chosenPost.id" class="black">{{chosenPost.title}}</a></p>
+        <div class="internalTopNews clearfix">
+          <div class="float-left mrg-top-20">
+            <span class="light  mrg-right-20"><i class="fas fa-user clock"></i>amruismaiil</span>
+            <span class="light"><i class="far fa-clock clock"></i> 30 min ago</span>
+          </div>
+          <a [href]="API+chosenPost.id" class="readMore mrg-top-20">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-top-news-internal-part (valueChange)='displayMain($event)' [posts]='posts'></app-top-news-internal-part>
+
+</div>

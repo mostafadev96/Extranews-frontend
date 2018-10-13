@@ -3,7 +3,7 @@ import {ErrorrsComponent} from './errorrs/errorrs.component';
 import {ArtHomeLayoutComponent} from './art-home-layout/art-home-layout.component';
 import {HomeComponent} from './Home/home/home.component';
 import {SearchResultComponent} from './search-result/search-result.component';
-import {InternalPostComponent} from './internal-post/internal-post.component';
+import {InternalPostComponent} from './Internal/internal-post/internal-post.component';
 import {NotfoundComponent} from './notfound/notfound.component';
 import {ServeErrorComponent} from './serve-error/serve-error.component';
 import {StyleComponent} from './style/style.component';
@@ -20,12 +20,12 @@ const appRoutes: Routes = [
     children: [
       { path: '', component: HomeComponent},
       { path: 'home', redirectTo: '', pathMatch: 'full' },
-      // { path: 'style/:id', component: StyleComponent},
-      // { path: 'women/:id', component: WomenComponent},
-      // { path: 'culture/:id', component: CultureComponent},
-      // { path: 'grooming/:id', component: GroomingComponent},
-      // { path: 'entertainment/:id', component: EntertainmentComponent},
-      // { path: 'videos/:id', component: VideosComponent},
+      { path: 'style/:id', component: StyleComponent},
+      { path: 'women/:id', component: WomenComponent},
+      { path: 'culture/:id', component: CultureComponent},
+      { path: 'grooming/:id', component: GroomingComponent},
+      { path: 'entertainment/:id', component: EntertainmentComponent},
+      { path: 'videos/:id', component: VideosComponent},
     ]
   },
   {

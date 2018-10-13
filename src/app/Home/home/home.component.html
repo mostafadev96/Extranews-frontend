@@ -1,8 +1,8 @@
 <section class="home">
-  <app-firstpart></app-firstpart>
+  <app-firstpart [slides]="todayPosts"></app-firstpart>
 </section>
 <section class="topNews">
-  <app-top-news></app-top-news>
+  <app-top-news [posts]="topPosts"></app-top-news>
 </section>
 <div class="mycontainer">
   <div class="belowNews float-left">
@@ -22,9 +22,9 @@
   </div>
 </div>
 <section class="videos">
-  <app-home-videos></app-home-videos>
+  <app-home-videos [videos]="latestVideos"></app-home-videos>
 </section>
-<app-different-news-part4></app-different-news-part4>
+<app-different-news-part4 [swiperPosts]="swiperPosts"></app-different-news-part4>
 <section class="live">
   <app-live></app-live>
 </section>
@@ -32,7 +32,7 @@
   <app-subscribe></app-subscribe>
 </section>
 <section class="gallery">
-  <app-gallery></app-gallery>
+  <app-gallery [album]="latestAlbum"></app-gallery>
 </section>
 <section class="ads">
   <app-addds></app-addds>

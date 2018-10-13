@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Post} from '../../Model/Post';
 
 @Component({
   selector: 'app-posts',
@@ -7,7 +8,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class PostsComponent implements OnInit {
   @Output() valueChange = new EventEmitter();
-  @Input() posts: any;
+  @Input() posts: Array<Post>;
   constructor() { }
 
   ngOnInit() {

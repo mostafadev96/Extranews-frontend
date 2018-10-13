@@ -1,0 +1,62 @@
+<section class="articleContent">
+  <div class="mycontainer">
+    <p class="bold head">{{post.title}} </p>
+    <div class="aboutArticle clearfix mrg-btm-40">
+      <div class="user float-left">
+        <img [src]="post.author_photo" alt="">
+        <span class="light f-16">{{post.author}}</span>
+      </div>
+      <div class="time float-left">
+        <i class="far fa-clock clock"></i>
+        <span class="light f-16"> {{post.since}} AGO</span>
+      </div>
+    </div>
+
+    <hr>
+    <p class="articleData semiBold">
+      {{post.description[0]}}
+    </p>
+    <app-video-post [post]='video' [trending]="false"></app-video-post>
+    <p class="articleData semiBold">{{post.description.slice(1,post.description.length)}}</p>
+    <div class="belowSocial">
+      <div class="belowNews d-inline-block">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="heavy">More News on </span><span class="bold">#EGYPT #SISI</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="bold"><i class="fas fa-star"></i>FOLLOWING</a>
+          </li>
+          <li>
+            <a href="#" class="bold"><i class="far fa-envelope"></i> GET EMAIL UPDATES</a>
+          </li>
+        </ul>
+      </div>
+      <div class="socialIcons d-inline-block float-right">
+        <a href="#" class="black"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="black"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="black"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="backHome text-center">
+      <a routerLink="/home" class="medium white" role="button">Back To Home</a>
+    </div>
+    <div class="articleBottom text-center position-relative">
+      <div class="bottomContent mrg-btm-20">
+        <p class="float-left">WE ARE </p>
+        <hr class="firstHr">
+        <p class="float-right">CONNECTED</p>
+        <hr class="secondHr">
+        <p>#DIESELREBOOT</p>
+      </div>
+      <div class="main">
+        <div class="more">
+          <button class="moreBtn">READ MORE</button>
+        </div>
+        <p class="red">WILL START IN APRIL</p>
+      </div>
+    </div>
+  </div>
+</section>

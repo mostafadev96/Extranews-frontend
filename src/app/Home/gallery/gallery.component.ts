@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
@@ -14,29 +14,8 @@ export class GalleryComponent implements OnInit {
       prevEl: '.swiper-button-prev'
     },
   };
-  recentAlbum = {
-    title : "Egypt's Sisi: Defaming security forces is 'high treason'",
-    link : '#',
-    slides : [
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-      'assets/images/video.jpg',
-    ]
-  };
+  @Input() album: any;
+  API = '/post/';
   num = 1;
   constructor() { }
 

@@ -10,13 +10,13 @@
         <div class="swiper-slide" *ngFor="let slide of swiperPosts">
           <div class="singleNews position-relative clearfix">
             <div class="singleCol text-center colImg">
-              <img [src]="slide.photo" alt="" class="centerImg">
+              <img [src]="slide.album.photos[0].photo" alt="" class="centerImg">
             </div>
             <div class="singleCol newsContent float-right">
               <p class="bold f-25 mrg-btm-30">{{slide.title}}</p>
               <p class="medium description">{{slide.description}}</p>
               <div class="newsFooter">
-                <a [href]="slide.link" class="bold black">READ MORE</a>
+                <a [href]="API+slide.id" class="bold black">READ MORE</a>
                 <div class="socialIcons d-inline-block float-right">
                   <a href="#" class="black"><i class="fab fa-facebook-f"></i></a>
                   <a href="#" class="black"><i class="fab fa-twitter"></i></a>

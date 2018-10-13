@@ -3,9 +3,9 @@
   <hr class="belowSectionTitle">
   <div class="swiper-container swiper-slider-3 differentArrows" [swiper]="config" (indexChange)="changeSlide($event)" >
     <div class="swiper-wrapper">
-      <div class="swiper-slide" *ngFor="let slide of recentAlbum.slides">
+      <div class="swiper-slide" *ngFor="let photo of album.photos">
         <div class="fullWidth text-center position-relative">
-          <img [src]="slide" alt="" class="centerImg">
+          <img [src]="photo" alt="" class="centerImg">
         </div>
       </div>
     </div>
@@ -13,12 +13,12 @@
     <div class="swiper-button-next"></div>
     <div class="whiteBg position-absolute">
       <p class="f-25 text-left latoBlack">
-        <a [href]="recentAlbum.link" class="black">{{recentAlbum.title}}</a>
+        <a [href]="API+album.post.id" class="black">{{album.title}}</a>
       </p>
       <span class="pagination">
         <span>{{num}}</span>
         <span> / </span>
-        <span> {{recentAlbum.slides.length}} </span>
+        <span> {{album.photos.length}} </span>
       </span>
     </div>
   </div>

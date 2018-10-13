@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./style.component.css']
 })
 export class StyleComponent implements OnInit {
-
+  type = 'style';
+  typeNumber = 1;
   constructor() { }
 
   ngOnInit() {

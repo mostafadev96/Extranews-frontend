@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Post} from '../../Model/Post';
 
 @Component({
   selector: 'app-top-news',
@@ -6,26 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-news.component.css']
 })
 export class TopNewsComponent implements OnInit {
-  posts = [
-    {
-      id: 0,
-      photo: 'assets/images/small.jpg',
-      title: "Egypt's Sisi: Defaming security forces is 'high treason'",
-      link: "#",
-    },
-    {
-      id: 1,
-      photo: 'assets/images/sisi.jpg',
-      title: "Egypt's Sisi: Defaming security forces is 'high treason'",
-      link: "#",
-    },
-    {
-      id: 2,
-      photo: 'assets/images/small.jpg',
-      title: "Egypt's Sisi: Defaming security forces is 'high treason'",
-      link: "#",
-    }
-    ];
+  @Input() posts: Array<Post>;
+  API = '/post/';
   chosenPost = {};
   constructor() {
   }

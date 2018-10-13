@@ -1,0 +1,17 @@
+<a [href]="post.link">
+  <img [src]="post.photo" alt="" class="centerImg">
+  <div class="position-absolute aroundMain">
+    <div class="play">
+      <i class="fas fa-play white"></i>
+    </div>
+    <div class="mainOverlay whiteBg">
+      <p class="semiBold f-30 text-left">{{post.title}}</p>
+      <div class="float-left passTime black">
+        <i class="far fa-clock clock"></i><span>{{post.created_at | uppercase}}</span><span> AGO</span>
+      </div>
+    </div>
+  </div>
+  <div class="trend position-absolute light redBg" [hidden]="!trending">
+    TRENDING
+  </div>
+</a>

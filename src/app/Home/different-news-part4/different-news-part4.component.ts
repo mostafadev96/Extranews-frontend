@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Post} from '../../Model/Post';
 
 @Component({
   selector: 'app-different-news-part4',
@@ -21,108 +22,8 @@ export class DifferentNewsPart4Component implements OnInit {
     },
     loop: true,
   };
-  swiperPosts = [
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-      {
-        photo : 'assets/images/news.jpg',
-        title : 'Mohamed Salah can improve in front of goal, says Jurgen Klopp',
-        description : 'Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring record could ' +
-        'be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds since' +
-        ' his £36million move from Roma last summer Liverpool boss Jurgen Klopp believes Mohamed Salah’s scoring' +
-        ' record could be even better this season. The Egyptian’s scored 12 goals in 17 appearances for the Reds' +
-        ' since his £36million move from Roma last summer',
-        link: '#'
-      },
-    ];
+  @Input() swiperPosts: Array<Post>;
+  API = '/post/';
   constructor() { }
 
   ngOnInit() {
